@@ -1,0 +1,20 @@
+# Main
+# Starting scenario: Test
+# Process 'chrome.exe' terminated succesfully
+# Process 'RapiseChromeProxy.exe' terminated succesfully
+ok 1 - Chrome Process Created
+# 'Navigator.Find(...)' is null or not an object
+ok 2 - Site_Map.DoClick([])
+ok 3 - Leads.DoClick([])
+ok 4 - _New.DoClick([])
+ok 5 - Topic.DoClick([])
+ok 6 - Topic.DoSetText(["100 LG TV"])
+ok 7 - First_Name.DoClick([])
+ok 8 - First_Name.DoSetText(["Bristi "])
+not ok 9 - Object is not found: Last_Name
+#     Failed test
+# Error position in RVL
+not ok 10 - Failure in Test
+#     Failed test
+not ok 11 - Main
+#     Failed test

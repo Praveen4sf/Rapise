@@ -1,0 +1,15 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-02-27 15:26:32.469"/>
+<log type="Test" name="Main" status="Info"  at="2019-02-27 15:26:34.095"><data type="text">Test Started: C:\Users\u93318\Desktop\Praveen\Account Creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2019-02-27 15:26:34.110"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; was not terminated" status="Info"  at="2019-02-27 15:26:34.360"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-02-27 15:26:34.673"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-02-27 15:26:34.845" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:12816" />
+<log type="Message" name="&apos;g_chromeHwnd.AccessibleObject&apos; is null or not an object" status="Info"  at="2019-02-27 15:26:45.582"/>
+<log type="Message" name="Error position in RVL" status="Info"  at="2019-02-27 15:26:45.739"><data type="link" url="C:\Users\u93318\Desktop\Praveen\Account Creation\Main.rvl.xlsx(RVL,12,1)" text="C:\Users\u93318\Desktop\Praveen\Account Creation\Main.rvl.xlsx(RVL,12,1)"/>
+</log>
+<log type="Assert" name="Tester.Message(e.message);" status="Fail"  at="2019-02-27 15:26:45.739"><data type="link" url="C:\Users\u93318\Desktop\Praveen\Account Creation\User.js(57,2)" text="C:\Users\u93318\Desktop\Praveen\Account Creation\User.js(57,2)"/>
+<data type="text" caption="Exception">TypeError(-2146823281): &apos;g_chromeHwnd.AccessibleObject&apos; is null or not an object</data>
+</log>
+<log type="Test" name="Main" status="Fail" closed="Main"  at="2019-02-27 15:26:45.754" comment="Passed:1 Failed:1 Time:11.895s" />

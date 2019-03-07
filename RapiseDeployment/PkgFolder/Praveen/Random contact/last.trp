@@ -1,0 +1,22 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-03-06 18:32:00.459"/>
+<log type="Test" name="Main" status="Info"  at="2019-03-06 18:32:02.171"><data type="text">Test Started: C:\Users\u93318\Desktop\Praveen\Random contact\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2019-03-06 18:32:02.171"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; terminated succesfully" status="Info"  at="2019-03-06 18:32:02.742"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-03-06 18:32:03.005"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-03-06 18:32:03.173" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:8796" />
+<log type="Message" name="&apos;Navigator.Find(...)&apos; is null or not an object" status="Info"  at="2019-03-06 18:32:12.160"/>
+<log type="Assert" name="Site_Map.DoClick([])" status="Pass"  at="2019-03-06 18:32:13.481" comment="Returned Value: true" />
+<log type="Assert" name="Contacts.DoClick([])" status="Pass"  at="2019-03-06 18:32:14.698" comment="Returned Value: true" />
+<log type="Assert" name="_New.DoClick([])" status="Pass"  at="2019-03-06 18:32:15.983" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoClick([])" status="Pass"  at="2019-03-06 18:32:19.457" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Rick&quot;])" status="Pass"  at="2019-03-06 18:32:20.577" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoClick([])" status="Pass"  at="2019-03-06 18:32:21.833" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoSetText([&quot;Brain&quot;])" status="Pass"  at="2019-03-06 18:32:23.028" comment="Returned Value: true" />
+<log type="Assert" name="Job_Title.DoClick([])" status="Pass"  at="2019-03-06 18:32:24.339" comment="Returned Value: true" />
+<log type="Assert" name="Job_Title.DoSetText([&quot;Consultant&quot;])" status="Pass"  at="2019-03-06 18:32:25.550" comment="Returned Value: true" />
+<log type="Assert" name="id_1fed44d1_ae68_4a41_bd2b_f13ac.DoClick([])" status="Pass"  at="2019-03-06 18:32:26.782" comment="Returned Value: true" />
+<log type="Assert" name="A_Set_of_6_Bulbs.DoClick([])" status="Pass"  at="2019-03-06 18:32:28.217" comment="Returned Value: true" />
+<log type="Assert" name="Save.DoClick([])" status="Pass"  at="2019-03-06 18:32:29.598" comment="Returned Value: true" />
+<log type="Test" name="Main" status="Pass" closed="Main"  at="2019-03-06 18:32:29.642" comment="Passed:13 Failed:0 Time:27.726s" />

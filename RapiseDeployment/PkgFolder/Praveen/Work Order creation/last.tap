@@ -1,0 +1,14 @@
+# Main
+# Starting scenario: Test
+# Process 'chrome.exe' terminated succesfully
+# Process 'RapiseChromeProxy.exe' terminated succesfully
+ok 1 - Chrome Process Created
+# 'Navigator.Find(...)' is null or not an object
+ok 2 - Field_Service.DoClick([])
+not ok 3 - Object is not found: New__Create_a_new_Work_Order_rec
+#     Failed test
+# Error position in RVL
+not ok 4 - Failure in Test
+#     Failed test
+not ok 5 - Main
+#     Failed test

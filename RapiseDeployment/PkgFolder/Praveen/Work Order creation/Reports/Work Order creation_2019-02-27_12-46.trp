@@ -1,0 +1,5 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-02-27 12:46:54.646"/>
+<log type="Test" name="Main" status="Info"  at="2019-02-27 12:46:56.068"><data type="text">Test Started: C:\Users\u93318\Desktop\Work Order creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2019-02-27 12:46:56.084"/>
+<log type="Test" name="Main" status="Unresolved" closed="Main"  at="2019-02-27 12:46:56.146" comment="Passed:0 Failed:0 Time:0.281s" />

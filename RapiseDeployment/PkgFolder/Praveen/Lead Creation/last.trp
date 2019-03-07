@@ -1,0 +1,29 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-03-06 18:31:22.104"/>
+<log type="Test" name="Main" status="Info"  at="2019-03-06 18:31:24.331"><data type="text">Test Started: C:\Users\u93318\Desktop\Praveen\Lead Creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2019-03-06 18:31:24.347"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; terminated succesfully" status="Info"  at="2019-03-06 18:31:24.915"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-03-06 18:31:25.201"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-03-06 18:31:25.401" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:8504" />
+<log type="Message" name="&apos;Navigator.Find(...)&apos; is null or not an object" status="Info"  at="2019-03-06 18:31:35.290"/>
+<log type="Assert" name="Site_Map.DoClick([])" status="Pass"  at="2019-03-06 18:31:36.627" comment="Returned Value: true" />
+<log type="Assert" name="Leads.DoClick([])" status="Pass"  at="2019-03-06 18:31:37.840" comment="Returned Value: true" />
+<log type="Assert" name="_New.DoClick([])" status="Pass"  at="2019-03-06 18:31:39.034" comment="Returned Value: true" />
+<log type="Assert" name="Topic.DoClick([])" status="Pass"  at="2019-03-06 18:31:42.137" comment="Returned Value: true" />
+<log type="Assert" name="Topic.DoSetText([&quot;100 LG TV&quot;])" status="Pass"  at="2019-03-06 18:31:43.314" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoClick([])" status="Pass"  at="2019-03-06 18:31:44.588" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Bristi &quot;])" status="Pass"  at="2019-03-06 18:31:45.753" comment="Returned Value: true" />
+<log type="Assert" name="Object is not found: Last_Name" status="Fail"  at="2019-03-06 18:31:57.922"><data type="text" caption="What">&lt;b&gt;What happened:&lt;/b&gt; Object is not found: Last_Name</data>
+<data type="text" caption="Why">&lt;b&gt;Why:&lt;/b&gt; Object is not available on screen or Location property of the object is invalid.</data>
+<data type="text" caption="Next Step">&lt;b&gt;Next step:&lt;/b&gt; If there is a load delay before the application displays the object try to &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;slow down test execution&lt;/a&gt;. To check that &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Location&lt;/a&gt; of the object is valid &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Flash&lt;/a&gt; it.</data>
+<data type="link" url="C:\Users\u93318\Desktop\Praveen\Lead Creation\User.js(57,2)" text="C:\Users\u93318\Desktop\Praveen\Lead Creation\User.js(57,2)"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx" text="KB301: Ways to slow down test execution"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB375.aspx" text="KB375: How to check that Rapise can find the object on screen"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB376.aspx" text="KB376: What is object Location?"/>
+</log>
+<log type="Message" name="Error position in RVL" status="Info"  at="2019-03-06 18:31:57.938"><data type="link" url="C:\Users\u93318\Desktop\Praveen\Lead Creation\Main.rvl.xlsx(RVL,18,1)" text="C:\Users\u93318\Desktop\Praveen\Lead Creation\Main.rvl.xlsx(RVL,18,1)"/>
+</log>
+<log type="Assert" name="Failure in Test" status="Fail"  at="2019-03-06 18:31:57.950"><data type="text" caption="Exception">Object is not found: Last_Name</data>
+</log>
+<log type="Test" name="Main" status="Fail" closed="Main"  at="2019-03-06 18:31:57.962" comment="Passed:8 Failed:2 Time:33.901s" />

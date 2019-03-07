@@ -1,0 +1,19 @@
+# Main
+# Starting scenario: Test
+# Process 'chrome.exe' terminated succesfully
+# Process 'RapiseChromeProxy.exe' terminated succesfully
+ok 1 - Chrome Process Created
+# 'Navigator.Find(...)' is null or not an object
+ok 2 - Site_Map.DoClick([])
+ok 3 - Contacts.DoClick([])
+ok 4 - _New.DoClick([])
+ok 5 - First_Name.DoClick([])
+ok 6 - First_Name.DoSetText(["Rick"])
+ok 7 - Last_Name.DoClick([])
+ok 8 - Last_Name.DoSetText(["Brain"])
+ok 9 - Job_Title.DoClick([])
+ok 10 - Job_Title.DoSetText(["Consultant"])
+ok 11 - id_1fed44d1_ae68_4a41_bd2b_f13ac.DoClick([])
+ok 12 - A_Set_of_6_Bulbs.DoClick([])
+ok 13 - Save.DoClick([])
+ok 14 - Main

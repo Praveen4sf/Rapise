@@ -1,0 +1,20 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-02-27 13:59:28.779"/>
+<log type="Test" name="Main" status="Info"  at="2019-02-27 13:59:30.389"><data type="text">Test Started: C:\Users\u93318\Desktop\Praveen\Lead Creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2019-02-27 13:59:30.389"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; was not terminated" status="Info"  at="2019-02-27 13:59:30.639"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-02-27 13:59:30.952"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-02-27 13:59:31.092" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:11604" />
+<log type="Message" name="Logged in as tester1@mroedge.com" status="Info"  at="2019-02-27 13:59:47.799"/>
+<log type="Assert" name="Site_Map.DoClick([])" status="Pass"  at="2019-02-27 14:00:01.574" comment="Returned Value: true" />
+<log type="Assert" name="Leads.DoClick([])" status="Pass"  at="2019-02-27 14:00:02.802" comment="Returned Value: true" />
+<log type="Assert" name="_New.DoClick([])" status="Pass"  at="2019-02-27 14:00:07.346" comment="Returned Value: true" />
+<log type="Assert" name="Topic.DoClick([])" status="Pass"  at="2019-02-27 14:00:09.554" comment="Returned Value: true" />
+<log type="Assert" name="Topic.DoSetText([&quot;100 LG TV&quot;])" status="Pass"  at="2019-02-27 14:00:10.673" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoClick([])" status="Pass"  at="2019-02-27 14:00:11.918" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Bristi &quot;])" status="Pass"  at="2019-02-27 14:00:13.049" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoClick([])" status="Pass"  at="2019-02-27 14:00:14.353" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoSetText([&quot;Reck&quot;])" status="Pass"  at="2019-02-27 14:00:15.489" comment="Returned Value: true" />
+<log type="Assert" name="Save.DoClick([])" status="Pass"  at="2019-02-27 14:00:16.719" comment="Returned Value: true" />
+<log type="Test" name="Main" status="Pass" closed="Main"  at="2019-02-27 14:00:16.735" comment="Passed:11 Failed:0 Time:46.596s" />

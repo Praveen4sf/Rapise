@@ -1,0 +1,15 @@
+# Main
+# Starting scenario: Test
+# Process 'chrome.exe' terminated succesfully
+# Process 'RapiseChromeProxy.exe' terminated succesfully
+ok 1 - Chrome Process Created
+# Logged in as tester1@mroedge.com
+ok 2 - Site_Map.DoClick([])
+ok 3 - Accounts.DoClick([])
+ok 4 - _New.DoClick([])
+ok 5 - Account_Name.DoClick([])
+ok 6 - Account_Name.DoSetText(["Grren Tech solution"])
+ok 7 - Phone.DoClick([])
+ok 8 - Phone.DoSetText(["7654234591"])
+ok 9 - Save.DoClick([])
+ok 10 - Main

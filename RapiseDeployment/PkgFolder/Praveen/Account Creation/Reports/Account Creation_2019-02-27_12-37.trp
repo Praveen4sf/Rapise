@@ -1,0 +1,18 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-02-27 12:36:22.889"/>
+<log type="Test" name="Main" status="Info"  at="2019-02-27 12:36:24.405"><data type="text">Test Started: C:\Users\u93318\Desktop\Account Creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2019-02-27 12:36:24.420"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; was not terminated" status="Info"  at="2019-02-27 12:36:24.639"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-02-27 12:36:24.905"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-02-27 12:36:25.030" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:8040" />
+<log type="Message" name="Logged in as tester1@mroedge.com" status="Info"  at="2019-02-27 12:36:41.412"/>
+<log type="Assert" name="Site_Map.DoClick([])" status="Pass"  at="2019-02-27 12:36:49.441" comment="Returned Value: true" />
+<log type="Assert" name="Accounts.DoClick([])" status="Pass"  at="2019-02-27 12:36:51.085" comment="Returned Value: true" />
+<log type="Assert" name="_New.DoClick([])" status="Pass"  at="2019-02-27 12:36:54.796" comment="Returned Value: true" />
+<log type="Assert" name="Account_Name.DoClick([])" status="Pass"  at="2019-02-27 12:36:57.339" comment="Returned Value: true" />
+<log type="Assert" name="Account_Name.DoSetText([&quot;Grren Tech solution&quot;])" status="Pass"  at="2019-02-27 12:36:58.498" comment="Returned Value: true" />
+<log type="Assert" name="Phone.DoClick([])" status="Pass"  at="2019-02-27 12:36:59.851" comment="Returned Value: true" />
+<log type="Assert" name="Phone.DoSetText([&quot;7654234591&quot;])" status="Pass"  at="2019-02-27 12:37:01.055" comment="Returned Value: true" />
+<log type="Assert" name="Save.DoClick([])" status="Pass"  at="2019-02-27 12:37:02.347" comment="Returned Value: true" />
+<log type="Test" name="Main" status="Pass" closed="Main"  at="2019-02-27 12:37:02.367" comment="Passed:9 Failed:0 Time:38.153s" />

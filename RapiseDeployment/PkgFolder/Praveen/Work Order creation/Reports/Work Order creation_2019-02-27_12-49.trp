@@ -1,0 +1,24 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-02-27 12:48:28.933"/>
+<log type="Test" name="Main" status="Info"  at="2019-02-27 12:48:30.746"><data type="text">Test Started: C:\Users\u93318\Desktop\Work Order creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2019-02-27 12:48:30.761"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; was not terminated" status="Info"  at="2019-02-27 12:48:31.152"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-02-27 12:48:31.324"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-02-27 12:48:31.402" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:872" />
+<log type="Message" name="Logged in as tester1@mroedge.com" status="Info"  at="2019-02-27 12:48:47.981"/>
+<log type="Assert" name="Field_Service.DoClick([])" status="Pass"  at="2019-02-27 12:48:56.832" comment="Returned Value: true" />
+<log type="Assert" name="New__Create_a_new_Work_Order_rec.DoClick([])" status="Pass"  at="2019-02-27 12:49:16.849" comment="Returned Value: true" />
+<log type="Assert" name="Object is not found: Service_Account_click_to_entercl" status="Fail"  at="2019-02-27 12:49:31.921"><data type="text" caption="What">&lt;b&gt;What happened:&lt;/b&gt; Object is not found: Service_Account_click_to_entercl</data>
+<data type="text" caption="Why">&lt;b&gt;Why:&lt;/b&gt; Object is not available on screen or Location property of the object is invalid.</data>
+<data type="text" caption="Next Step">&lt;b&gt;Next step:&lt;/b&gt; If there is a load delay before the application displays the object try to &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;slow down test execution&lt;/a&gt;. To check that &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Location&lt;/a&gt; of the object is valid &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Flash&lt;/a&gt; it.</data>
+<data type="link" url="C:\Users\u93318\Desktop\Work Order creation\User.js(52,2)" text="C:\Users\u93318\Desktop\Work Order creation\User.js(52,2)"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx" text="KB301: Ways to slow down test execution"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB375.aspx" text="KB375: How to check that Rapise can find the object on screen"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB376.aspx" text="KB376: What is object Location?"/>
+</log>
+<log type="Message" name="Error position in RVL" status="Info"  at="2019-02-27 12:49:31.954"><data type="link" url="C:\Users\u93318\Desktop\Work Order creation\Main.rvl.xlsx(RVL,13,1)" text="C:\Users\u93318\Desktop\Work Order creation\Main.rvl.xlsx(RVL,13,1)"/>
+</log>
+<log type="Assert" name="Failure in Test" status="Fail"  at="2019-02-27 12:49:32.015"><data type="text" caption="Exception">Object is not found: Service_Account_click_to_entercl</data>
+</log>
+<log type="Test" name="Main" status="Fail" closed="Main"  at="2019-02-27 12:49:32.035" comment="Passed:3 Failed:2 Time:61.777s" />

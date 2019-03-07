@@ -1,0 +1,20 @@
+<log type="Session" name="A022LHYD:U93318" at="2019-02-27 15:30:25.285"/>
+<log type="Test" name="Main" status="Info"  at="2019-02-27 15:30:26.816"><data type="text">Test Started: C:\Users\u93318\Desktop\Praveen\Lead Creation\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2019-02-27 15:30:26.832"/>
+<log type="Message" name="Process &apos;chrome.exe&apos; was not terminated" status="Info"  at="2019-02-27 15:30:27.129"/>
+<log type="Message" name="Process &apos;RapiseChromeProxy.exe&apos; terminated succesfully" status="Info"  at="2019-02-27 15:30:27.488"/>
+<log type="Assert" name="Chrome Process Created" status="Pass"  at="2019-02-27 15:30:27.613" comment="Path:C:\Users\u93318\AppData\Local\Google\Chrome\Application\Chrome.exe -new-window &quot;https://ustgsandbox.crm.dynamics.com/main.aspx?appid=e4fcb990-3ac9-e811-a969-000d3a346d36&quot; 
+PID:876" />
+<log type="Message" name="Logged in as tester1@mroedge.com" status="Info"  at="2019-02-27 15:30:44.059"/>
+<log type="Assert" name="Site_Map.DoClick([])" status="Pass"  at="2019-02-27 15:30:49.735" comment="Returned Value: true" />
+<log type="Assert" name="Leads.DoClick([])" status="Pass"  at="2019-02-27 15:30:51.255" comment="Returned Value: true" />
+<log type="Assert" name="_New.DoClick([])" status="Pass"  at="2019-02-27 15:30:52.427" comment="Returned Value: true" />
+<log type="Assert" name="Topic.DoClick([])" status="Pass"  at="2019-02-27 15:30:54.567" comment="Returned Value: true" />
+<log type="Assert" name="Topic.DoSetText([&quot;100 LG TV&quot;])" status="Pass"  at="2019-02-27 15:30:55.880" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoClick([])" status="Pass"  at="2019-02-27 15:30:57.204" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Bristi &quot;])" status="Pass"  at="2019-02-27 15:30:58.412" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoClick([])" status="Pass"  at="2019-02-27 15:30:59.682" comment="Returned Value: true" />
+<log type="Assert" name="Execution terminated by user" status="Fail"  at="2019-02-27 15:31:00.408"><data type="link" url="C:\Users\u93318\Desktop\Praveen\Lead Creation\User.js(52,2)" text="C:\Users\u93318\Desktop\Praveen\Lead Creation\User.js(52,2)"/>
+<data type="text">Tester.Message(&quot;Logged in as &quot; + userName);</data>
+</log>
