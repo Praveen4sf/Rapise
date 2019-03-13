@@ -59,7 +59,7 @@ if (test-path $filePath) #...Reading data from Excel
 					#$bVal.Substring(0,$bVal.LastIndexOf("\"))
 					
 					write-host "***Path="$path
-
+<#
 					If($path -ne "")
                     {
 					    $text = 
@@ -165,7 +165,7 @@ if (test-path $filePath) #...Reading data from Excel
 					    }else
                         {
                             Write-Host "TRP File Not Found at "$path
-                        }
+                        }#>
                     }else
                     {
                         Write-Host "Something Wrong with Test Script Path, Please check the Inputs files"
