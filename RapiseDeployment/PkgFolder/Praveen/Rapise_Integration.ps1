@@ -1,7 +1,7 @@
 ﻿#...Note: Change the File/Folder paths according to your Environment
 #...Reading Rapise Engine Path and Test Script inputs from Excel File
 
-$filePath = dir Rapise_Config.xlsx
+$filePath = https://github.com/Praveen4sf/Rapise/RapiseDeployment/PkgFolder/Praveen/Rapise_Config.xlsx
 
 $csvContents = @()  #...Object Creation for CSV file
 
